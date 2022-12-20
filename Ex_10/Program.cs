@@ -4,9 +4,9 @@
 Console.WriteLine("Введите трехзначное число ");
 
 int GetSecondNumber(int number)
-{
-    return number/10%10;   
-}
+    {
+        return number/10%10;    
+    }
 
 int number = int.Parse(Console.ReadLine());
 
